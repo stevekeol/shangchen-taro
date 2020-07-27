@@ -1,0 +1,38 @@
+<cu-custom bgColor="bg-blue">
+  <view slot="content">JieGe</view>
+</cu-custom>
+
+<view class="backgroundHead">
+  <image class="avatar" src="https://shp.qpic.cn/cfwebcap/0/d0a02c5f86d40c0fae24ae56eea587e0/" mode="scaleToFill"></image>
+</view>
+
+<view class="body margin-top-xl">
+  <view class="title">我的卡包</view>
+  <view class="memberCard" bindtap="enterMemberCardInfo">
+    <view class="memberCardInfo">
+      <view class="store">橙子宠物</view>
+      <view class="number">No.10010123</view>
+    </view>
+    <view class="memberCardLevel">
+      <view class="icon">
+        <image src="../../images/memberCard/level_diamond.png"></image>
+        <view>钻石VIP</view>
+      </view>
+    </view>
+  </view>
+  <view class="title margin-top-xl">其它</view>
+  <view class="tableContainer margin-top">
+    <view class="item">
+      <view class="name cuIcon-locationfill">我的地址</view>
+      <view class="value">余杭区荆长大道西园3幢302</view>
+    </view>
+    <view class="item">
+      <view class="name cuIcon-mobilefill">联系方式</view>
+      <view class="value">15258800906</view>
+    </view>    
+    <view class="item" bindtap="enterAllOrders">
+      <view class="name cuIcon-timefill">所有订单</view>
+      <view class="cuIcon-right"></view>
+    </view>
+  </view>
+</view>

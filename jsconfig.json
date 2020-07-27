@@ -1,0 +1,15 @@
+//该文件是自己在根目录下增加的，目的是@connect下面的class名不warning(即没有下划线)
+{
+"compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017"
+},
+"exclude": [
+    "node_modules",
+    "dist"
+],
+"include": [
+    "src",
+    "env",
+    "static"
+]
